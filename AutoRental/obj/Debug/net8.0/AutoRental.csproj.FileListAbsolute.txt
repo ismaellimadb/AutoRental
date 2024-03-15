@@ -309,3 +309,4 @@ C:\Users\note1\Desktop\Project AutoRental\AutoRental-master\AutoRental\obj\Debug
 C:\Users\note1\Desktop\Project AutoRental\AutoRental-master\AutoRental\obj\Debug\net8.0\AutoRental.pdb
 C:\Users\note1\Desktop\Project AutoRental\AutoRental-master\AutoRental\obj\Debug\net8.0\AutoRental.genruntimeconfig.cache
 C:\Users\note1\Desktop\Project AutoRental\AutoRental-master\AutoRental\obj\Debug\net8.0\ref\AutoRental.dll
+C:\Users\note1\Desktop\Project AutoRental\AutoRental-master\AutoRental\obj\Debug\net8.0\AutoRental.sourcelink.json

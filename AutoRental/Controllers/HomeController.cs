@@ -22,6 +22,9 @@ namespace AutoRental.Controllers
 
         public IActionResult Index()
         {
+			string errorMessage = TempData["ErrorMessage"] as string;
+			ViewBag.ErrorMessage = errorMessage;
+
 			var rentalViewModel = new RentalViewModel
 			{
 				Auto = GetAutoData(),
@@ -87,6 +90,7 @@ namespace AutoRental.Controllers
 			}
 			catch (Exception ex)
 			{
+				TempData["ErrorMessage"] = "Fields are not allowed to be empty and Plate cannot be one already registered!";
 				return RedirectToAction("Index");
 			}
 		}
