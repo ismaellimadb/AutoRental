@@ -57,10 +57,11 @@ namespace AutoRental.Controllers
 										   (manufacturer, auto) => new ModelManufacturer
 										   {
 											   name = manufacturer.name,
-											   model = auto.model
-										   });
+											   model = auto.model,
+                                               id_auto = auto.id_auto
+                                           });
 
-			return filteredNameModel.ToList();
+			return filteredNameModel.OrderBy(auto => auto.id_auto).ToList();
 		}
 
 		private List<Year> GetYearData()
