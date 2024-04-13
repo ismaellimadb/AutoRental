@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\autorental\\autorental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|solutionrelative:autorental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\autorental\\autorental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|solutionrelative:autorental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\autorental\\autorental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|solutionrelative:autorental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\autorental\\autorental\\models\\year.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|solutionrelative:autorental\\models\\year.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\autorental\\autorental\\models\\modelmanufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\autorental\\autorental\\models\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|solutionrelative:autorental\\models\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\autorental\\autorental\\models\\year.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|solutionrelative:autorental\\models\\year.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AF9BD7A-2A0C-4AAB-A4F2-553DED55D5DC}|AutoRental\\AutoRental.csproj|c:\\users\\imlbl\\onedrive\\desktop\\gitrepos\\autorental\\autorental\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Year.cs",
               "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Models\\Year.cs",
               "RelativeDocumentMoniker": "AutoRental\\Models\\Year.cs",
@@ -58,37 +58,38 @@
               "RelativeToolTip": "AutoRental\\Models\\Year.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T17:07:31.877Z"
+              "WhenOpened": "2024-03-15T17:07:31.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AutoRental\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AutoRental\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAuwGAAAAADAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAowGQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T21:10:42.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "AutoRental\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "AutoRental\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAKoAAAAyAAAA",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAALsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-10T15:14:36.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ModelManufacturer.cs",
               "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Models\\ModelManufacturer.cs",
               "RelativeDocumentMoniker": "AutoRental\\Models\\ModelManufacturer.cs",
@@ -101,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Auto.cs",
               "DocumentMoniker": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Models\\Auto.cs",
               "RelativeDocumentMoniker": "AutoRental\\Models\\Auto.cs",

@@ -95,5 +95,22 @@ namespace AutoRental.Controllers
 				return RedirectToAction("Index");
 			}
 		}
+
+		[HttpPost]
+		public async Task<IActionResult> Delete(int id_auto)
+		{
+			var auto = await _dbContext.Auto
+				.AsNoTracking()
+				.FirstOrDefaultAsync(x => x.id_auto == id_auto);
+
+			if (auto is not null)
+			{
+				_dbContext.Auto.Remove(auto);
+				await _dbContext.SaveChangesAsync();
+			}
+
+			return RedirectToAction("Index");
+		}
 	}
 }
+
