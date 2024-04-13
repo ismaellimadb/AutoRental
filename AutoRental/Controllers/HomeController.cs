@@ -111,6 +111,32 @@ namespace AutoRental.Controllers
 
 			return RedirectToAction("Index");
 		}
+
+		[HttpPost]
+		public async Task<IActionResult> Edit(int id_auto, string newPlate)
+		{
+			try
+			{
+				var auto = await _dbContext.Auto
+				.AsNoTracking()
+				.FirstOrDefaultAsync(x => x.id_auto == id_auto);
+
+				if (!newPlate.Contains("null") || newPlate!= "")
+				{
+					auto.plate = newPlate;
+
+					_dbContext.Update(auto);
+
+					await _dbContext.SaveChangesAsync();
+				}
+			}
+			catch (Exception ex)
+			{
+				return RedirectToAction("Index");
+			}
+
+			return RedirectToAction("Index");
+		}
 	}
 }
 

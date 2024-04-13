@@ -2,6 +2,7 @@
 {	
 	<script>
 		alert('@ViewBag.ErrorMessage');
+		location.reload();
 	</script>
 }
 
@@ -166,9 +167,9 @@
 							<div class="controls clearfix">
 								@foreach (var auto in Model.Auto)
 								{
-								<form method="post" action="@Url.Action("Edit", "Home", FormMethod.Post)">
-									<input type="hidden" name="idAuto" value="@auto.id_auto" />
-									<button type="submit" class="btn">&nbsp; Edit</button>
+								<form id="editForm-@auto.id_auto" method="post" action="@Url.Action("Edit", "Home")">
+									<input type="hidden" name="id_auto" value="@auto.id_auto" />
+									<button type="submit" class="btn" onclick="editPlate(@auto.id_auto, '@auto.plate')">&nbsp; Edit</button>
 								</form>
 								}
 							</div>
@@ -520,6 +521,25 @@
 
 		function submitForm() {
 			document.getElementById('register').click()
+		}
+
+		function editPlate(autoId, currentPlate) {
+			debugger
+			var newPlate = prompt("Please enter the new plate:", currentPlate);
+			if (newPlate !== null && newPlate !== "") {
+				var form = document.getElementById('editForm-' + autoId);
+				var input = document.createElement('input');
+				input.type = 'hidden';
+				input.name = 'newPlate';
+				input.value = newPlate;
+				form.appendChild(input);
+
+				if (currentPlate === null) {
+					return;
+				}
+				else
+				form.submit();
+			}
 		}
 	</script>
 
