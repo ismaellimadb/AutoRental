@@ -159,20 +159,52 @@
 		</div>
 		}
 		@* Read from DB HERE *@
-			<div class="center_2 clearfix">
-				<div class="col-sm-3">
+		<div class="center_2 clearfix" style="font-size:33px;">
+			<div id="editAuto" style="float:right; margin-left: -16px;">
 					<div class="center_3">
 						<div class="hotels_tab_inner_1 clearfix">
-							<h4>ID</h4>
 							<div class="controls clearfix">
 								@foreach (var auto in Model.Auto)
 								{
-								<input class="form-control input-lg searchbox" type="text" id="IDShow" name="IDShow" placeholder="@auto.id_auto" disabled>
+								<form method="post" action="@Url.Action("Edit", "Home", FormMethod.Post)">
+									<input type="hidden" name="idAuto" value="@auto.id_auto" />
+									<button type="submit" class="btn">&nbsp; Edit</button>
+								</form>
 								}
 							</div>
 						</div>
 					</div>
 				</div>
+
+			<div id="deleteAuto" style="float:right; >
+				<div class="center_3">
+					<div class="hotels_tab_inner_1 clearfix">
+						<div class="controls clearfix">
+							@foreach (var auto in Model.Auto)
+							{
+								<form method="post" action="@Url.Action("Delete", "Home", FormMethod.Post)">
+									<input type="hidden" name="idAuto" value="@auto.id_auto" />
+									<button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure do you want to delete this auto?');">Delete</button>
+								</form>
+							}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="listAuto" style="position: absolute; top: 950px">
+			<div class="col-sm-3">
+				<div class="center_3">
+					<div class="hotels_tab_inner_1 clearfix">
+						<h4>ID</h4>
+						<div class="controls clearfix">
+							@foreach (var auto in Model.Auto)
+							{
+								<input class="form-control input-lg searchbox" type="text" id="IDShow" name="IDShow" placeholder="@auto.id_auto" disabled>
+							}
+						</div>
+					</div>
+				</div>
+			</div>
 				<div class="col-sm-3">
 					<div class="center_3">
 						<div class="hotels_tab_inner_1 clearfix">
@@ -212,6 +244,7 @@
 						</div>
 					</div>
 				</div>
+		</div>
 			</div>
 		
 	</section>

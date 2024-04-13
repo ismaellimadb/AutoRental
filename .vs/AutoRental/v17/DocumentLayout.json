@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "AutoRental\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AutoRental\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAuwFAAAAAlAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwGAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T21:10:42.357Z",
               "EditorCaption": ""
@@ -81,7 +81,7 @@
               "RelativeDocumentMoniker": "AutoRental\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\imlbl\\OneDrive\\Desktop\\GitRepos\\AutoRental\\AutoRental\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "AutoRental\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAO8AAAAAAAAAAAAmwNUAAAAKAAAA",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAKoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-10T15:14:36.076Z",
               "EditorCaption": ""
@@ -96,7 +96,8 @@
               "RelativeToolTip": "AutoRental\\Models\\ModelManufacturer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T18:08:49.03Z"
+              "WhenOpened": "2024-03-15T18:08:49.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
